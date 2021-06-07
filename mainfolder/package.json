@@ -1,0 +1,25 @@
+{
+  "name": "mainfolder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sender": "node sender.js",
+    "receiver": "node receiver.js",
+    "receiver1": "node receiver1.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ampq": "^2019.5.11",
+    "amqp": "^0.2.7",
+    "amqplib": "^0.1.3",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.8",
+    "node": "^16.1.0",
+    "nodemon": "^2.0.7",
+    "rabbitmq": "^0.0.2"
+  }
+}
